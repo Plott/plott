@@ -1,4 +1,4 @@
-![plott](https://raw.githubusercontent.com/cwhite911/Plott/master/plott/assets/images/plott-logo-black/scaled-at-25/white-text.png)
+# Plott
 ======
 
 ***Real-time Indoor Positioning System***
