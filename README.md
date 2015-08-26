@@ -1,5 +1,8 @@
 # Plott
+
+[![Build Status](https://travis-ci.org/Plott/plott.svg)](https://travis-ci.org/Plott/plott)
 ======
+
 
 ***Real-time Indoor Positioning System***
 
