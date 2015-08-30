@@ -58,7 +58,10 @@
     "uglify-js": "~2.4.16"
   },
   "dependencies": {
+    "plott-mongo": "0.0.1",
+    "plott-mongo-models": "0.0.2",
     "plott-quality-distance": "0.0.1",
-    "plott-rssi-quality": "0.0.1"
+    "plott-rssi-quality": "0.0.1",
+    "plott-wifi-scanner": "0.0.1"
   }
 }

@@ -7,7 +7,12 @@ test('plott', function(t){
   // check that each of the sub modules initializes as a function
   Object.keys(plott).forEach(function(module){
     t.ok(plott[module], module)
-    t.equal(typeof plott[module], 'function', module + ' is a function')
+    if (module === 'mongoModels'){
+      t.equal(typeof plott[module], 'object', module + ' is a object')
+    }
+    else {
+      t.equal(typeof plott[module], 'function', module + ' is a function')
+    }
   })
 
   t.end()

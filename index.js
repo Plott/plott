@@ -8,6 +8,9 @@
  * @summary Indoor Positioning API
  */
 module.exports = {
+  wifiscanner: require('plott-wifi-scanner'),
   rssiQuality: require('plott-rssi-quality'),
-  qualityDistance: require('plott-quality-distance')
+  qualityDistance: require('plott-quality-distance'),
+  mongo: require('plott-mongo'),
+  mongoModels: require('plott-mongo-models')
 };
