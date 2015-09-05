@@ -12,5 +12,6 @@ module.exports = {
   rssiQuality: require('plott-rssi-quality'),
   qualityDistance: require('plott-quality-distance'),
   mongo: require('plott-mongo'),
-  mongoModels: require('plott-mongo-models')
+  mongoModels: require('plott-mongo-models'),
+  addCoverage: require('plott-add-coverage')
 };
