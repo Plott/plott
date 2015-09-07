@@ -59,6 +59,7 @@
   },
   "dependencies": {
     "plott-add-coverage": "0.0.1",
+    "plott-fingerprint-score": "0.0.1",
     "plott-mongo": "0.0.1",
     "plott-mongo-models": "0.0.2",
     "plott-quality-distance": "0.0.1",

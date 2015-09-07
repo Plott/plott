@@ -13,5 +13,6 @@ module.exports = {
   qualityDistance: require('plott-quality-distance'),
   mongo: require('plott-mongo'),
   mongoModels: require('plott-mongo-models'),
-  addCoverage: require('plott-add-coverage')
+  addCoverage: require('plott-add-coverage'),
+  fingerprintScore: require('plott-fingerprint-score')
 };
