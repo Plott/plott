@@ -1,12 +1,12 @@
 {
   "name": "plott",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Real-time Indoor Positioning System",
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
     "build": "browserify index.js -s plott > plott.js && uglifyjs plott.js -c -m > plott.min.js;",
-    "doc": "jsdoc index.js ./node_modules/plott-*/index.js",
+    "doc": "jsdoc index.js ./node_modules/plott*/index.js",
     "lint": "eslint --no-ignore ./node_modules/plott-*/index.js",
     "size": "browserify index.js --full-paths -s plott | uglifyjs -c -m | discify | hcat"
   },
@@ -64,6 +64,6 @@
     "plott-mongo-models": "0.0.2",
     "plott-quality-distance": "0.0.1",
     "plott-rssi-quality": "0.0.1",
-    "plott-wifi-scanner": "0.0.1"
+    "plott-wifi-scanner": "0.0.2"
   }
 }
